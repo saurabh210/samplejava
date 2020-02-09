@@ -33,12 +33,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>https://s3.us-east-1.amazonaws.com/sk-devops-testing/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>https://s3.us-east-1.amazonaws.com/sk-devops-testing/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
